@@ -1,0 +1,12 @@
+.navbar-default{
+	background-image : none !important;
+	background-color : #fff;
+}
+
+a {
+	color : #333 !important;
+}
+
+.navbar-brand {
+	font-family: "Quicksand";
+}

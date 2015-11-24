@@ -1,0 +1,19 @@
+@font-face{
+	font-family: "Quicksand";
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+  font-family : "Quicksand-Italic";
+  src : url(../fonts/Quicksand-Italic.otf);
+}
+
+@font-face {
+  font-family : "Roboto-Regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+
+@font-face{
+  font-family : "Roboto-Thin";
+  src: url(../fonts/Roboto-thin.ttf);
+}
