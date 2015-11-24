@@ -6,7 +6,7 @@ layout: default
 	<hr class="baseline"/>
 		{% for post in site.posts %}
 			<a data-toggle="collapse" data-parent="#accordion" href="#{{post.post-id}}-post-id" aria-expanded="false">
-				<div class="post-container col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-12">
+				<div class="post-container col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
 					<h2 class="post-title">{{post.title}}</h2>
 					<h4 class="post-subtitle">{{post.meta}}</h4>
 					<div class="collapse" id="{{post.post-id}}-post-id">
@@ -16,7 +16,7 @@ layout: default
 					</div>
 				</div>
 			</a>
-			<div class="col-lg-offset-2 col-lg-8 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-12">
+			<div class="col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
 				<hr class="divider">
 			</div>
 		{% endfor %}
