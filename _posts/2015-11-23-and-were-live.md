@@ -11,6 +11,6 @@ post-id: c
 <p>I'd like to thank the Internet, the Foo Fighters for coming out with a free EP today, and my friends for leaving beer in my fridge for me to drink to celebrate.</p>
 
 <p>In conclusion, don't forget to include this meta tag in your Bootstrap webpage. It's important. 
-<pre>&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</pre>
+<pre class="prettyprint">&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</pre>
 </p>
  
