@@ -38,4 +38,7 @@ post-id: d
 </pre>
 <p class="img-desc"><i>From <a href="https://github.com/tmlewallen/tmlewallen.github.io/blob/master/index.html">index.html</a></i></p>
 <p><i>The 'data-parent' attribute isn't actually important, just left over from experimenting.</i></p>
-<p>Still haven't been able to get things to function where only one accordion can be open at a time. I'll figure that out eventually...</p>
+
+<p>The trouble now is that the whole div containing the post is considered a link, so none of the text is selectable. Will remedy that next full release.</p>
+
+<p>Still haven't been able to get things to function where only one accordion can be open at a time. I'll figure that out eventually though...</p>
