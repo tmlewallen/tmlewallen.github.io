@@ -12,8 +12,33 @@ h4 {
   font-size : 2em;
 }
 
+h5 {
+  font-family: "Quicksand-Italic";
+  font-size: 1.5em;
+}
+
 p { 
   font-family : "Roboto-Regular";
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+a.underline:hover{
+  text-decoration: underline;
 }
 
 header {
@@ -51,20 +76,37 @@ hr.divider {
   cursor : pointer;
 }
 
-.post-container>h4{
-  font-size : 1.5em;
+.post-title {
+  text-align : center;
+}
+
+.post-subtitle{
+  font-size : 1.2em;
+  text-align : center;
+}
+
+.post-date{
+  font-size : 1.2em;
+  text-align : center;
 }
 
 .post-content {
-  /*background-color : #eee;*/
-  /*padding : 3px;*/
+  font-family : "Roboto-Regular";
   border-radius: 20px;
   cursor : default;
 }
 
-.post-content>p{
+.post-content p{
   font-size: 1.2em;
   text-align : justify;
+}
+
+.post-content h3{
+  text-align : center;
+}
+
+.post-content h4{
+  font-size: 1.5em;
 }
 
 p.img-desc{
@@ -72,16 +114,14 @@ p.img-desc{
   font-size : 1.0em;
 }
 
-.post-content>h4{
-  font-size: 1.5em;
+.centered-list{
+  text-align : center;
+  list-style: none;
+  padding-left : 0px;
 }
 
-.post-title {
-  text-align : center;
-}
-
-.post-subtitle{
-  text-align : center;
+.centered-list li{
+  font-size: 1.3em;
 }
 
 .header-padding {

@@ -1,10 +1,10 @@
 ---
-title : Lessons in Bootstrap - The Polka
-meta : Dec 1, 2015
+title : Lessons in Bootstrap
+meta : The Polka
 tags : [dev,blogdev]
 post-id: d
 ---
-<p><b><i>This release can be found <a href="https://github.com/tmlewallen/tmlewallen.github.io/releases/tag/v1.0">here - v1.0</a></i></b></p>
+<p><b><i>This release can be found <a class="underline" href="https://github.com/tmlewallen/tmlewallen.github.io/releases/tag/v1.0">here - v1.0</a></i></b></p>
 <p>Whenever I start a project with Bootstrap, I always think it'll pretty straight forward. Nothing finicky to deal with, just simple, intuitive design.</p>
 
 <p><i>It never really turns out that way though.</i></p>
