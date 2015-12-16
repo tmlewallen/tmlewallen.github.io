@@ -2,25 +2,24 @@
 layout: default
 ---
 
-<div class="container">
-	<hr class="baseline"/>
-	{% for post in site.posts %}
-	<div class="post-container col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-		<a class="expandable" data-toggle="collapse" data-parent="#accordion" href="#{{post.post-id}}-post-id" aria-expanded="false">
-			<h2 class="post-title">{{post.title}}</h2>
-			<h4 class="post-subtitle">- {{post.meta}} -</h4>
-			<h5 class="post-date">{{ post.date | date: '%B %d, %Y' }}</h5>
-		</a>
-		<div class="collapse" id="{{post.post-id}}-post-id">
-			<div class="post-content">
-				{{post.content}}
-			</div>
-		</div>
-	</div>
 
-	<div class="col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-		<hr class="divider">
+{% for post in site.posts %}
+<div class="post-container col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+	<a class="expandable" data-toggle="collapse" data-parent="#accordion" href="#{{post.post-id}}-post-id" aria-expanded="false">
+		<h2 class="post-title">{{post.title}}</h2>
+		<h4 class="post-subtitle">- {{post.meta}} -</h4>
+		<h5 class="post-date">{{ post.date | date: '%B %d, %Y' }}</h5>
+	</a>
+	<div class="collapse" id="{{post.post-id}}-post-id">
+		<div class="post-content">
+			{{post.content}}
+		</div>
+		<a href="{{ post.url | prepend: site.baseurl }}"><i>permalink</i></a>
 	</div>
-	{% endfor %}
 </div>
+<div>
 </div>
+<div class="col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+	<hr class="divider">
+</div>
+{% endfor %}

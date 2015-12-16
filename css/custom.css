@@ -23,6 +23,7 @@ p {
 
 a.expandable {
   color : #333 !important;
+  cursor : pointer;
 }
 
 a.expandable:link {
@@ -93,7 +94,6 @@ Post-Container Styles
 
 .post-container:hover {
   background-color: #eee; 
-  cursor : pointer;
 }
 
 .post-title {

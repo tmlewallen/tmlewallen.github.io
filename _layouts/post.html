@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	{% include includes.html %}
+</head>
+<body>
+	{% include navbar.html %}	
+	{% include header.html %}
+	<div class="container">
+		<hr class="baseline">
+		<div class="post-container col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+			<h2 class="post-title">{{page.title}}</h2>
+			<h4 class="post-subtitle">- {{page.meta}} -</h4>
+			<h5 class="post-date">{{ page.date | date: '%B %d, %Y' }}</h5>
+			<div class="post-content">
+				{{content}}
+			</div>
+		</div>
+		<div class="col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+			<a href="/"> &lt; Back to Posts</a>
+			<hr class="divider">
+		</div>
+	</div>
+</body>
+
+</html>

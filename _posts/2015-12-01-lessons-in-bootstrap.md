@@ -1,4 +1,5 @@
 ---
+layout: post
 title : Lessons in Bootstrap
 meta : The Polka
 tags : [dev,blogdev]

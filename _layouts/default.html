@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
-	<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-	<link rel="stylesheet" href="css/bootstrap.css"/>
-	<link rel="stylesheet" href="css/bootstrap-theme.css"/>
-	<link rel="stylesheet" href="css/fonts.css"/>
-	<link rel="stylesheet" href="css/custom.css"/>
-	<link rel="stylesheet" href="css/overrides.css"/>
-
-</head> 
+	{% include includes.html %}
+</head>
 <body>
 	{% include navbar.html %}	
 	{% include header.html %}
+	<div class="container">
+		<hr class="baseline"/>
 	{{content}}
+	</div>
 </body>
 
 </html>

@@ -3,13 +3,17 @@ A sandbox for a jekyll blog/webpage
 
 ##TO DO
 
+-Layouts are not great. Not DRY enough. 
+
+-Format permalink and back to posts links
+
 -Search By Tags
 
 -Minified CSS w/ different css files
 
 -CSS that doesn't suck
 
--Permalink to each post
+-~~Permalink to each post~~
 
 -Allow multiple pages (in whole site)
 

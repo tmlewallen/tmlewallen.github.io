@@ -1,4 +1,5 @@
 ---
+layout : post
 title : Intro to iOS Programming on Udacity - Thoughts
 meta : Hmmmm
 tags : [dev,ios]
