@@ -21,19 +21,23 @@ p {
   font-family : "Roboto-Regular";
 }
 
-a:link {
+a.expandable {
+  color : #333 !important;
+}
+
+a.expandable:link {
   text-decoration: none;
 }
 
-a:visited {
+a.expandable:visited {
   text-decoration: none;
 }
 
-a:hover {
+a.expandable:hover {
   text-decoration: none;
 }
 
-a:active {
+a.expandable:active {
   text-decoration: none;
 }
 
@@ -66,6 +70,22 @@ hr.divider {
 	height : 1px;
 }
 
+/*
+Heading Styles
+*/
+
+.header-padding {
+  padding-top : 30px;
+  padding-bottom : 30px;
+}
+
+.heading {
+  text-align : center;
+}
+
+/*
+Post-Container Styles
+*/
 
 .post-container {
   border-radius : 20px;
@@ -90,6 +110,10 @@ hr.divider {
   text-align : center;
 }
 
+/*
+Post Content Styles
+*/
+
 .post-content {
   font-family : "Roboto-Regular";
   border-radius: 20px;
@@ -100,6 +124,23 @@ hr.divider {
   font-size: 1.2em;
   text-align : justify;
 }
+
+.post-content p.heading{
+  
+}
+
+/*.post-content a{
+  text-decoration: underline;
+  color: blue;
+}*/
+
+/*.post-content a:link{
+  text-decoration: initial;
+}
+
+.post-content a:hover{
+  text-decoration: initial;
+}*/
 
 .post-content h3{
   text-align : center;
@@ -124,12 +165,5 @@ p.img-desc{
   font-size: 1.3em;
 }
 
-.header-padding {
-	padding-top : 30px;
-	padding-bottom : 30px;
-}
 
-.heading {
-	text-align : center;
-}
 

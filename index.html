@@ -6,7 +6,7 @@ layout: default
 	<hr class="baseline"/>
 	{% for post in site.posts %}
 	<div class="post-container col-lg-offset-2 col-lg-8 col-md-12 col-sm-12 col-xs-12">
-		<a data-toggle="collapse" data-parent="#accordion" href="#{{post.post-id}}-post-id" aria-expanded="false">
+		<a class="expandable" data-toggle="collapse" data-parent="#accordion" href="#{{post.post-id}}-post-id" aria-expanded="false">
 			<h2 class="post-title">{{post.title}}</h2>
 			<h4 class="post-subtitle">- {{post.meta}} -</h4>
 			<h5 class="post-date">{{ post.date | date: '%B %d, %Y' }}</h5>
